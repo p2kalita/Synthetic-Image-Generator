@@ -1,6 +1,8 @@
 
 # Synthetic Image Generator
+![Output Example](output_example.PNG)
 
+This code allows you to create a synthetic data-set, for Instance Segmentation or Object Detection. The [data_generation.py](data_generation.py) script outputs data in [LabelMe format](https://roboflow.com/formats/labelme-json), which can also be converted to other formats like the [COCO JSON format](https://cocodataset.org/).
 ## Overview
 The Synthetic Image Generator script creates synthetic datasets by overlaying foreground images on background images. 
 It also generates JSON annotations for object detection tasks, making it suitable for training AI models.
